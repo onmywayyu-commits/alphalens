@@ -13,7 +13,7 @@ export interface SignalCopy {
   statements?: Record<string, string>
 }
 
-const reviewedNovember20: Record<string, SignalCopy> | null = import.meta.env?.DEV ? {
+const reviewedNovember20: Record<string, SignalCopy> = {
   'essd-purchase-timing': {
     title: '企业级 SSD 需求放缓：采购延后还是需求转弱？',
     judgment: '现有线索支持关注 GPU 供应对采购节奏的影响。仍需等待到货改善后的订单表现，才能判断终端需求是否转弱。',
@@ -52,9 +52,9 @@ const reviewedNovember20: Record<string, SignalCopy> | null = import.meta.env?.D
     thesisStatus: 'to_validate',
     companyScope: { direct: ['NVIDIA · NVDA（设备型号）'], value_chain: ['GPU 出租方', '抵押贷款人'] },
   },
-} : null
+}
 
-const reviewedNovember19: Record<string, SignalCopy> | null = import.meta.env?.DEV ? {
+const reviewedNovember19: Record<string, SignalCopy> = {
   'optical-order-conversion': {
     title: '光互连产能预留能否转化为付费出货？',
     judgment: '协议金额提供需求线索。收入可见度仍取决于采购义务、交付节奏和客户验收。',
@@ -77,13 +77,11 @@ const reviewedNovember19: Record<string, SignalCopy> | null = import.meta.env?.D
     thesisStatus: 'to_validate',
     companyScope: { direct: ['腾讯'], value_chain: ['AI 服务器与加速器供应商'] },
   },
-} : null
+}
 
 export function reviewedSignal(runId: string, eventKey: string): SignalCopy | undefined {
-  if (import.meta.env?.DEV) {
-    if (runId === '2987765148da8ebc9b37f02659f4ee231eaf8280ab0176f14299827130229af2') return reviewedNovember20?.[eventKey]
-    if (runId === '61479a8338905297f40ad4227ac02926965c803e3660717a64b13f14371c48ed') return reviewedNovember19?.[eventKey]
-  }
+  if (runId === '2987765148da8ebc9b37f02659f4ee231eaf8280ab0176f14299827130229af2') return reviewedNovember20[eventKey]
+  if (runId === '61479a8338905297f40ad4227ac02926965c803e3660717a64b13f14371c48ed') return reviewedNovember19[eventKey]
 }
 
 type Evidence = BriefRunData['evidence'][string]
