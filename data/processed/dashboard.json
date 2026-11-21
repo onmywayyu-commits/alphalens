@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "mode": "demo",
+  "updated_at": "2026-11-20T04:00:00Z",
+  "accounts": [
+    {
+      "handle": "aleabitoreddit"
+    },
+    {
+      "handle": "SemiAnalysis_"
+    },
+    {
+      "handle": "Omercheema"
+    },
+    {
+      "handle": "OrnnExchange"
+    },
+    {
+      "handle": "HedgeyeTech"
+    },
+    {
+      "handle": "RYANHINGSHING"
+    },
+    {
+      "handle": "FredaDuan"
+    },
+    {
+      "handle": "TMTLongShort"
+    }
+  ],
+  "posts": [
+    {
+      "post_id": "demo-001",
+      "author": "demo-scenario-1",
+      "source_url": null,
+      "published_at": "2026-11-20T02:40:00Z",
+      "collected_at": "2026-11-20T04:00:00Z",
+      "source_type": "synthetic",
+      "content": "A fictional supplier briefing describes longer lead times for advanced packaging capacity.",
+      "is_demo": true,
+      "title": "算力订单上行，先进封装交付会成为瓶颈吗？",
+      "summary": "演示情境给定先进封装交付周期拉长。研究重点是瓶颈能持续多久，以及它会怎样影响 GPU 出货。",
+      "industry": "AI 基础设施",
+      "companies": [
+        {
+          "ticker": "NVDA",
+          "name": "英伟达"
+        },
+        {
+          "ticker": "TSM",
+          "name": "台积电"
+        }
+      ],
+      "information_type": "供应链观察",
+      "relevance": "high",
+      "evidence": [
+        {
+          "id": "demo-001-1",
+          "category": "fact",
+          "text": "虚构的供应商简报称，部分先进封装环节的交付周期拉长。",
+          "verification": "unverified",
+          "source_post_ids": [
+            "demo-001"
+          ],
+          "evidence": "对应此条合成样本。"
+        },
+        {
+          "id": "demo-001-2",
+          "category": "opinion",
+          "text": "样本叙述者判断，扩产速度可能跟不上短期订单增量。",
+          "verification": null,
+          "source_post_ids": [
+            "demo-001"
+          ],
+          "evidence": "对应此条合成样本。"
+        },
+        {
+          "id": "demo-001-3",
+          "category": "inference",
+          "text": "若交付周期在扩产后仍拉长，可检验先进封装是否成为 GPU 出货约束。",
+          "verification": null,
+          "source_post_ids": [
+            "demo-001"
+          ],
+          "evidence": "虚构的供应商简报称，部分先进封装环节的交付周期拉长。"
+        }
+      ]
+    },
+    {
+      "post_id": "demo-002",
+      "author": "demo-scenario-2",
+      "source_url": null,
+      "published_at": "2026-11-20T01:15:00Z",
+      "collected_at": "2026-11-20T04:00:00Z",
+      "source_type": "synthetic",
+      "content": "A fictional distributor briefing discusses a faster transition to higher-speed optical modules.",
+      "is_demo": true,
+      "title": "高速光模块需求上行，能否传导到产品利润率？",
+      "summary": "演示情境给定光模块向更高速率升级。需要跟踪平均售价、良率与产品组合。",
+      "industry": "光通信",
+      "companies": [
+        {
+          "ticker": "COHR",
+          "name": "Coherent"
+        },
+        {
+          "ticker": "LITE",
+          "name": "Lumentum"
+        }
+      ],
+      "information_type": "产业趋势",
+      "relevance": "high",
+      "evidence": [
+        {
+          "id": "demo-002-1",
+          "category": "fact",
+          "text": "虚构的渠道简报称，两类高速率光模块样品进入测试。",
+          "verification": "unverified",
+          "source_post_ids": [
+            "demo-002"
+          ],
+          "evidence": "对应此条合成样本。"
+        },
+        {
+          "id": "demo-002-2",
+          "category": "opinion",
+          "text": "样本叙述者认为，产品切换速度可能快于年初假设。",
+          "verification": null,
+          "source_post_ids": [
+            "demo-002"
+          ],
+          "evidence": "对应此条合成样本。"
+        },
+        {
+          "id": "demo-002-3",
+          "category": "inference",
+          "text": "以良率和平均售价为验证变量，判断高速产品占比上升能否改善利润率。",
+          "verification": null,
+          "source_post_ids": [
+            "demo-002"
+          ],
+          "evidence": "虚构的渠道简报称，两类高速率光模块样品进入测试。"
+        }
+      ]
+    },
+    {
+      "post_id": "demo-003",
+      "author": "demo-scenario-3",
+      "source_url": null,
+      "published_at": "2026-11-20T00:30:00Z",
+      "collected_at": "2026-11-20T04:00:00Z",
+      "source_type": "synthetic",
+      "content": "A fictional planning note assumes additional accelerator capacity for enterprise inference workloads.",
+      "is_demo": true,
+      "title": "云厂商的算力资本开支，能否转化为推理收入？",
+      "summary": "演示情境给定云厂商增加面向企业推理的算力。利用率与单价需要同步观察。",
+      "industry": "AI 基础设施",
+      "companies": [
+        {
+          "ticker": "MSFT",
+          "name": "微软"
+        },
+        {
+          "ticker": "AMZN",
+          "name": "亚马逊"
+        }
+      ],
+      "information_type": "资本开支",
+      "relevance": "medium",
+      "evidence": [
+        {
+          "id": "demo-003-1",
+          "category": "fact",
+          "text": "虚构的规划记录列出了一项面向企业推理的算力扩容计划。",
+          "verification": "unverified",
+          "source_post_ids": [
+            "demo-003"
+          ],
+          "evidence": "对应此条合成样本。"
+        },
+        {
+          "id": "demo-003-2",
+          "category": "opinion",
+          "text": "样本叙述者倾向于认为推理负载会拉动新增算力。",
+          "verification": null,
+          "source_post_ids": [
+            "demo-003"
+          ],
+          "evidence": "对应此条合成样本。"
+        },
+        {
+          "id": "demo-003-3",
+          "category": "inference",
+          "text": "若利用率提升伴随单价下行，容量增长对收入的影响需要重新估算。",
+          "verification": null,
+          "source_post_ids": [
+            "demo-003"
+          ],
+          "evidence": "虚构的规划记录列出了一项面向企业推理的算力扩容计划。"
+        }
+      ]
+    },
+    {
+      "post_id": "demo-004",
+      "author": "demo-scenario-1",
+      "source_url": null,
+      "published_at": "2026-11-19T03:10:00Z",
+      "collected_at": "2026-11-20T04:00:00Z",
+      "source_type": "synthetic",
+      "content": "A fictional example describes testing a liquid-cooling design in a higher-density rack.",
+      "is_demo": true,
+      "title": "机柜密度提升后，液冷项目的确认周期怎么变？",
+      "summary": "演示情境给定高密度机柜液冷测试。需要确认设计试点是否能转成正式订单。",
+      "industry": "数据中心电力",
+      "companies": [
+        {
+          "ticker": "VRT",
+          "name": "Vertiv"
+        }
+      ],
+      "information_type": "项目进展",
+      "relevance": "medium",
+      "evidence": [
+        {
+          "id": "demo-004-1",
+          "category": "fact",
+          "text": "虚构项目记录写明一套液冷设计进入机柜试点。",
+          "verification": "unverified",
+          "source_post_ids": [
+            "demo-004"
+          ],
+          "evidence": "对应此条合成样本。"
+        },
+        {
+          "id": "demo-004-2",
+          "category": "opinion",
+          "text": "样本叙述者认为改造进度取决于客户机房验收。",
+          "verification": null,
+          "source_post_ids": [
+            "demo-004"
+          ],
+          "evidence": "对应此条合成样本。"
+        },
+        {
+          "id": "demo-004-3",
+          "category": "inference",
+          "text": "将试点、订单和收入确认拆开，可以定位收入假设的敏感环节。",
+          "verification": null,
+          "source_post_ids": [
+            "demo-004"
+          ],
+          "evidence": "虚构项目记录写明一套液冷设计进入机柜试点。"
+        }
+      ]
+    },
+    {
+      "post_id": "demo-005",
+      "author": "demo-scenario-2",
+      "source_url": null,
+      "published_at": "2026-11-17T05:20:00Z",
+      "collected_at": "2026-11-20T04:00:00Z",
+      "source_type": "synthetic",
+      "content": "A fictional procurement note assumes a shift toward higher-bandwidth memory.",
+      "is_demo": true,
+      "title": "内存采购结构变化，库存天数是否先行改善？",
+      "summary": "演示情境给定采购组合偏向高带宽内存。可观察库存结构与实际去化进度。",
+      "industry": "半导体存储",
+      "companies": [
+        {
+          "ticker": "MU",
+          "name": "美光科技"
+        }
+      ],
+      "information_type": "库存观察",
+      "relevance": "low",
+      "evidence": [
+        {
+          "id": "demo-005-1",
+          "category": "fact",
+          "text": "虚构采购记录列出不同内存品类的采购占比变化。",
+          "verification": "unverified",
+          "source_post_ids": [
+            "demo-005"
+          ],
+          "evidence": "对应此条合成样本。"
+        },
+        {
+          "id": "demo-005-2",
+          "category": "opinion",
+          "text": "样本叙述者认为高带宽产品可能先于整体库存改善。",
+          "verification": null,
+          "source_post_ids": [
+            "demo-005"
+          ],
+          "evidence": "对应此条合成样本。"
+        },
+        {
+          "id": "demo-005-3",
+          "category": "inference",
+          "text": "可用分品类出货、交期和库存天数交叉验证去库存路径。",
+          "verification": null,
+          "source_post_ids": [
+            "demo-005"
+          ],
+          "evidence": "虚构采购记录列出不同内存品类的采购占比变化。"
+        }
+      ]
+    }
+  ],
+  "ideas": [
+    {
+      "id": "idea-demo-001",
+      "title": "先进封装扩产与 GPU 出货兑现",
+      "industry": "AI 基础设施",
+      "tickers": [
+        "NVDA",
+        "TSM"
+      ],
+      "status": "待验证",
+      "hypothesis": "若先进封装有效产能在短期受限，GPU 出货兑现可能落后于订单预期。",
+      "supporting_logic": "比较想定的交付周期、有效产能与云厂商投产节奏。",
+      "counterargument": "良率改善或工艺切换可能缩短交期。",
+      "catalyst": "产能释放指引与客户出货更新。",
+      "risk": "样本仅为流程演示，订单和出货时点也可能错配。",
+      "questions": [
+        "有效产能增量何时进入量产？",
+        "订单积压是否改变出货预期？"
+      ],
+      "source_post_ids": [
+        "demo-001",
+        "demo-003"
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "idea-demo-002",
+      "title": "高速光模块升级与供应商利润率",
+      "industry": "光通信",
+      "tickers": [
+        "COHR",
+        "LITE"
+      ],
+      "status": "待验证",
+      "hypothesis": "若高速光模块量产良率达到预期，产品组合上移可能改善单位毛利。",
+      "supporting_logic": "跟踪产品认证、平均售价与模块良率的变化。",
+      "counterargument": "客户议价和早期良率成本可能抵消价格优势。",
+      "catalyst": "测试转量产与产品组合披露。",
+      "risk": "量产时点、良率和价格缺少可核实的信息。",
+      "questions": [
+        "如何核实出货占比和平均售价？"
+      ],
+      "source_post_ids": [
+        "demo-002"
+      ],
+      "is_demo": true
+    }
+  ],
+  "reports": [
+    {
+      "date": "2026-11-20",
+      "summary": "演示样本聚焦先进封装交付、高速光模块升级与云端推理资本开支。优先验证供给约束能否由交期和产能数据相互印证。",
+      "events": [
+        "先进封装交付周期拉长的演示情境。",
+        "高速光模块样品进入测试的演示情境。"
+      ],
+      "themes": [
+        "AI 基础设施与光通信构成最新样本日的主要主题。"
+      ],
+      "hypotheses": [
+        "若先进封装有效产能在短期受限，GPU 出货兑现可能落后于订单预期。",
+        "若高速光模块量产良率达到预期，产品组合上移可能改善单位毛利。"
+      ],
+      "questions": [
+        "有效产能增量何时进入量产？",
+        "如何核实出货占比和平均售价？"
+      ],
+      "risks": [
+        "所有信息均为合成场景，真实市场条件有待使用可核实的资料验证。"
+      ],
+      "source_post_ids": [
+        "demo-001",
+        "demo-002",
+        "demo-003"
+      ],
+      "is_demo": true
+    }
+  ]
+}

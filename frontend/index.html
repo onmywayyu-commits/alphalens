@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0F172A" />
+    <script>
+      try {
+        if (localStorage.getItem('alphalens.theme') === 'warm') {
+          document.documentElement.dataset.theme = 'warm'
+          document.querySelector('meta[name="theme-color"]').content = '#D4A088'
+        }
+      } catch {}
+    </script>
+    <meta name="description" content="AlphaLens AI 投研情报终端，汇集信息并追踪投资研究假设。" />
+    <title>AlphaLens ｜ AI 投研情报终端</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
